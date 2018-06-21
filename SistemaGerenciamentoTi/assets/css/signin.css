@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+}
+.well
+      {
+         padding: 35px;
+         padding-left: 30px;
+        box-shadow: 2px 2px 5px #000; 
+         margin: 7% auto 0;
+         width: 500px;
+         background: rgba(0.4, 0, 0, 0.4);
+         box-sizing: border-box;
+      }
+
+      .btn1
+      {
+         background-color:#006400;
+         color: white;
+         transition: all 0.5s;
+      }
+      .btn1:hover, .btn1:focus
+      {
+         background-color: #FFF;
+         color: #32CD32;
+         border: 1px solid;
+         border-color: #00BFFF;
+         transition: 0.5s;
+      }
+      a:hover
+      {
+         text-decoration: none;
+         color: royalblue;
+      }
+
+    .container-login{
+      background-image: url('../img/fundo-login.png');
+    }
+
+

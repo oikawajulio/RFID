@@ -1,0 +1,261 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/03/2017, 22:44:41
+    Author     : Jailton Ferreira
+*/
+
+/*
+ * Base structure
+ */
+
+
+body {
+  padding-top: 40px;
+  background:transparent;
+  box-sizing: border-box;
+}
+.navbar-fixed-top {
+  border: 0;
+  
+}
+
+
+@media (min-width: 380px) {
+  .sidebar {
+    position: fixed;
+    top: 53px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    background-color:#00BFFF;
+    border-left: 1px solid #000;
+    box-shadow: 2px 2px 5px #ccc; 
+    color:#ccc;
+    font-size: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+  
+  
+    
+  }
+
+
+@media screen and (min-width: 480px) {
+   sidebar {width: 200px; float: left;}
+   
+}
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+  }
+
+.nav-sidebar > li > a {
+
+  padding-right: 20px;
+  padding-left: 20px;
+ border-bottom: 1px solid #fff;
+ font-family: 'verdana','Source Sans Pro', sans-serif;
+ font-weight: bold;
+    color:#fff;
+  
+}
+
+.nav-sidebar > li > a:hover{
+   color:#00BFFF;
+   background-color:#fff;
+  
+  
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  font-weight: bold;
+  background: #000;
+  
+  
+}
+.span1{
+  margin-left:90px;
+}
+
+h1{
+   font-weight: bold;
+}
+h2{
+   font-weight: bold;
+}
+h4{
+  text-align: justify;
+  margin-left: 40px;
+  font-weight: bold;
+ 
+}
+
+h3{
+ font-weight: bold;
+}
+h5{
+ font-weight: bold;
+}
+h6{
+ font-weight: bold;
+}
+.navbar-inverse  {
+   background: #4682B4;
+   border-top: 3px solid #000;
+}
+
+
+
+/* item de menu quando tiver selecionado */
+.navbar-inverse  .navbar-nav>.active>a,
+.navbar-inverse  .navbar-nav>.active>a:hover,
+.navbar-inverse  .navbar-nav>.active>a:focus {
+   color: #fff;
+   
+}
+
+/* item de menu */
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  font-weight:bold;
+   font-size: 12px;
+}
+  panel-heading{
+    background: #00BFFF;
+  }
+
+/* mouse over no item de menu */
+.navbar-inverse  .navbar-nav>li>a:hover,
+.navbar-inverse  .navbar-nav>li>a:focus {
+   color:#00BFFF;
+   background-color:#fff;
+   font-weight:bold;
+ 
+}
+
+/* item de menu dropdown quando tiver aberto */
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+
+   background-color: #00BFFF;
+
+}
+ 
+.main {
+  padding: 20px;
+}
+@media (min-width: 960px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 10;
+
+}
+.navbar{
+  background:#00BFFF; 
+  color:#fff;
+  
+ 
+}
+.navbar-nav navbar-right{
+  color:#fff;
+  
+}
+.container {
+  float: left;
+  width: 100%;
+}
+
+.rodape{
+	position: absolute;
+  bottom: 0;
+  margin-left:500px;
+  color:#fff;
+  font-family: 'Verdana', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  border-top:#000;
+ 
+        
+	
+  }
+
+ 
+  
+.grafics{
+  
+  width:100%;
+  height:auto;
+  border: 2px solid #ccc;
+
+}
+
+.fa-chevron-right{
+  color:#fff;
+  margin-left:85px;
+  
+}
+
+ .modal-header
+            {
+                background-color: #3A87AD;
+                color: #fff;
+            }
+    img{
+      width:180px;
+      height:auto;
+      padding-top: 10px;
+    }
+
+.btn-sq {
+  width: 140px !important;
+  height: 90px !important;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.btn-sq:hover{
+  background-color:#1E90FF;
+  box-shadow: 2px 2px 2px #000; 
+}
+p{
+
+ margin-top:10px;
+ font-family: 'Source Sans Pro', sans-serif;
+ color:#696969;
+ font-size:12px;
+ font-weight: bolder;
+}
+
+
+  
+
+.status {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.status .panel-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    line-height: 10px;
+    padding-top: 10px;
+    letter-spacing: -0.8px;
+}
+
+
